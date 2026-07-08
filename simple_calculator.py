@@ -1,21 +1,21 @@
-valor_1 = float(input("Digite o primeiro valor: "))
-operador = input("Digite o operador (+, -, *, /): ")
-valor_2 = float(input("Digite o segundo valor: "))
+value_1 = float(input("Enter the first value: "))
+operator = input("Enter the operator (+, -, *, /): ")
+value_2 = float(input("Enter the second value: "))
 
-if operador == "+":
-  print (f" Resultado: {valor_1 + valor_2}")
+if operator == "+":
+  print(f"Result: {value_1 + value_2}")
 
-elif operador == "-":
-  print (f" Resultado: {valor_1 - valor_2}")
+elif operator == "-":
+  print(f"Result: {value_1 - value_2}")
 
-elif operador == "*":
-  print (f" Resultado: {valor_1 * valor_2}")
+elif operator == "*":
+  print(f"Result: {value_1 * value_2}")
 
-elif operador == "/":
-  if valor_2 == 0:
-    print ("Não é possível dividir por zero")
+elif operator == "/":
+  if value_2 == 0:
+    print("Cannot divide by zero")
   else:
-    print (f" Resultado: {valor_1 / valor_2}")
-  
+    print(f"Result: {value_1 / value_2}")
+
 else:
-  print("Operador inválido")
+  print("Invalid operator")
